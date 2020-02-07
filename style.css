@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.topHeader {
+    background-color: #f8f8f8;
+    height: 51px;
+    overflow: visible;
+}
+
+.nav {
+    padding-top: 8px;
+}
+
+.navRight {
+    float: right;
+}
+
+.navLeft {
+    float: left;
+}
+
+.nav-item a {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #b7b7b8;
+    margin-left: 22px;
+}
+
+.dropdown-menu {
+    z-index: 100;
+}
+
+.botHeader {
+    position: relative;
+    height: 110px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    border: 1.5px solid black;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 28px;
+    font-size: 1rem;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.logo {
+    margin-top: 25px;
+}
+
+.mb-3, .my-3 {
+    margin-top: 25px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -105px;
+}
+
+.centered h2 {
+    font-size: 65px;
+    font-weight: 500;
+    letter-spacing: 12px;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.floatingBoxes {
+    margin-top: -190px;
+}
+
+.centered-1 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #fff;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.centered-1 h2 {
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+.centered-1 p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.featuredProductsHeading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.col-2 {
+    overflow: hidden;
+}
